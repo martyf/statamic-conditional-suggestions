@@ -4,6 +4,8 @@ This requires a specific scenario to trigger, hence the repo.
 
 All of this can be reviewed by cloning and logging in to the CP. 
 
+This relates to [PR 9592](https://github.com/statamic/cms/pull/9592) in the Statamic 4.x core.
+
 ## Fieldset setup
 
 There is a `page_builder` fieldset which has a Replicator that stores the different blocks.
