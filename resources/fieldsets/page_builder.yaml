@@ -1,0 +1,50 @@
+title: 'Page Builder'
+fields:
+  -
+    handle: page_builder
+    field:
+      collapse: false
+      previews: true
+      fullscreen: true
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          instructions: null
+          icon: null
+          sets:
+            conditional_set:
+              display: 'Conditional Set'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  handle: buttons
+                  field:
+                    options:
+                      show: null
+                      hide: null
+                    default: show
+                    type: button_group
+                    display: Buttons
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    replicator_preview: true
+                    hide_display: false
+            set_with_linked_bits:
+              display: 'Set with Linked Bits'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: linked_fieldset
+                -
+                  import: linked_fieldset
+                  prefix: prefix_
+      type: replicator
+      display: 'Page Builder'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false

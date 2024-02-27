@@ -1,0 +1,14 @@
+title: 'Linked Fieldset'
+fields:
+  -
+    handle: text_field
+    field:
+      input_type: text
+      antlers: false
+      type: text
+      display: 'Text Field'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      replicator_preview: true
+      hide_display: false
