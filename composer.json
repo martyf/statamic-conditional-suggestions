@@ -74,11 +74,5 @@
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
         ]
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../cms"
-        }
-    ]
+    }
 }
